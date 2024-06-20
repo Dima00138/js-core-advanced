@@ -12,4 +12,4 @@ function repeateAction(action, times = 5) {
     }, 1000);
 }
 
-repeateAction(() => {console.log(1);})
+repeateAction(() => {console.log(1)})
