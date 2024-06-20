@@ -1,3 +1,8 @@
+// Напишите функцию для сравнения двух
+// объектов, чтобы определить, содержит ли
+// первый из них эквивалентные значения
+// свойств по сравнению со вторым.
+
 function objectsAreEqual(obj1, obj2) {
     if (obj1 === null && obj2 === null) return true;
     if ((obj1 === null) || (obj2 === null)) return false;

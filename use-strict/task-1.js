@@ -1,3 +1,8 @@
+// Напишите функцию для расчета факториала
+// числа. Функция должна принимать число в
+// качестве аргумента и возвращать его
+// факториал. Учтите использование строгого
+// режима.
 'use strict'
 
 function factorial(n) {
@@ -16,5 +21,5 @@ function factorial(n) {
 }
 
 console.log(factorial(4));
-console.log(factorial(-4));
-console.log(factorial(1.2));
+console.log(factorial(-4)); //error
+console.log(factorial(1.2)); //error
